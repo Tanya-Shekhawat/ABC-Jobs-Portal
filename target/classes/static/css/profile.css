@@ -1,0 +1,204 @@
+.profile-container{
+    padding: 20px 15%;
+    color: #626262;
+    margin-top: -60px;
+}
+body{
+	background-color: aquamarine;
+     background-image: url(/images/profile-bg.png); 
+     background-size: cover;
+}
+.cover-img{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    opacity: .8;
+    background-color: green;
+    background: green;
+}
+.profile-details{
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.pd-row{
+    display: flex;
+    align-items: flex-start;
+}
+.pd-image{
+    width: 101px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+.pd-row div h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 4px;
+}
+.pd-row div p{
+    font-size: 13px;
+    margin: 4px;
+}
+.pd-row div img{
+    width: 25px;
+    border-radius: 50%;
+    margin-top: 12px;
+} 
+.pd-right button{
+    background: #15a26cee;
+    border: 0;
+    outline: 0;
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    border-radius: 3px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.pd-right button img{
+    height: 15px;
+    margin-right: 10px;
+}
+.pd-right button:first-child{
+    background: #e4e6eb;
+    color: black;
+}
+.pd-right{
+    text-align: right;
+}
+.pd-right a{
+    background: #e4e6eb;
+    border-radius: 3px;
+    padding: 12px;
+    display: inline-flex;
+    margin-top: 30px;
+}
+.pd-right a img{
+    width: 20px;
+}
+.profile-info{
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.profile-intro{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    height: 370px;
+    width: 330px;
+}
+.profile-intro h3{
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+}
+.intro-text{
+    text-align: center;
+    margin: 10ox 0;
+    font-size: 22px;
+}
+.intro-text img{
+    width: 15px;
+    margin-bottom: -3px ;
+}
+.profile-intro hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 24px;
+}
+.profile-info ul li{
+    list-style:disc;
+}
+
+
+/* pd */
+.profile-info{
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.profile-introd{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 140px;
+    margin-right: 140px; */
+    border-radius: 4px;
+    height: 370px;
+    width: 330px;
+}
+.profile-introd h3{
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+}
+.intro-text{
+    text-align: center;
+    margin: 10ox 0;
+    font-size: 22px;
+}
+.intro-text img{
+    width: 15px;
+    margin-bottom: -3px ;
+}
+.profile-introd hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 24px;
+}
+
+
+
+/* p notifications */
+
+/* pd */
+.profile-info{
+    display: flex;
+    align-self: flex-end;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.profile-introf{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-right: -85px; 
+    border-radius: 4px;
+    height: 370px;
+    width: 330px;
+}
+.profile-introf h3{
+    font-weight: 600;
+    text-align: center;
+    font-size: 24px;
+}
+.intro-text{
+    text-align: center;
+    margin: 10ox 0;
+    font-size: 22px;
+}
+.intro-text img{
+    width: 15px;
+    margin-bottom: -3px ;
+}
+.profile-introf hr{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 24px;
+}
+
